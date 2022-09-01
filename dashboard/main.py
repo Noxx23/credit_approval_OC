@@ -11,6 +11,15 @@ import requests
 from typing import Union
 from api_models import ClientExplainResponse, ClientPredictResponse, ErrorResponse
 from gauge import plot_gauge
+# -------------------------------------------
+#  PAGE LAYOUT
+# Example page icons 💶💰💸💳🪙🤑💲
+st.set_page_config(
+    page_title='Scoring Dashboard',
+    page_icon='💸',
+    # initial_sidebar_state="expanded",
+    layout="wide",
+)
 
 # -------------------------------------------
 # SECRETS
@@ -34,15 +43,6 @@ st.write(
 API_URL=st.secrets['config']['API_URL']
 default_threshold=st.secrets['config']['THRESHOLD']
 
-# -------------------------------------------
-#  PAGE LAYOUT
-# Example page icons 💶💰💸💳🪙🤑💲
-st.set_page_config(
-    page_title='Scoring Dashboard',
-    page_icon='💸',
-    # initial_sidebar_state="expanded",
-    layout="wide",
-)
 
 
 # -----------------------------------------------------
