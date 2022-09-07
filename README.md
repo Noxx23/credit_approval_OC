@@ -27,10 +27,6 @@ dashboard. Pour plus de simplicité, vous pouvez les télécharger à
    prédictions faites par le modèle et d’améliorer la connaissance client des chargés de relation
    client.
 
-## Plan du projet
-
-Le plan de ce projet ce trouve en plus de détail dans le document
-[project_plan.md](./project_plan.md).
 
 ## Livrables de ce projet
 
